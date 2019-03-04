@@ -37,9 +37,9 @@ export default class NavBar extends React.Component {
 
                 <ul className="uk-nav uk-nav-default">
                   <li className="uk-nav-header">Menu</li>
-                  <li><Link to="/"><span className="uk-margin-small-right" uk-icon="icon: home"></span>Home</Link></li>
-                  <li><Link to="/"><span className="uk-margin-small-right" uk-icon="icon: calendar"></span>シフト表</Link></li>
-                  <li><Link to="/"><span className="uk-margin-small-right" uk-icon="icon: file-edit"></span>シフト記入</Link></li>
+                  <li><a to="/"><span className="uk-margin-small-right" uk-icon="icon: home"></span>Home</a></li>
+                  <li><a to="/"><span className="uk-margin-small-right" uk-icon="icon: calendar"></span>シフト表</a></li>
+                  <li><a to="/"><span className="uk-margin-small-right" uk-icon="icon: file-edit"></span>シフト記入</a></li>
                 </ul>
 
               </div>
@@ -63,22 +63,22 @@ export default class NavBar extends React.Component {
 
             <ul className="uk-navbar-nav uk-visible@s">
               <li>
-                <Link className='uk-text-emphasis' style={{minHeight: 0}} to='/'>
+                <a className='uk-text-emphasis' style={{minHeight: 0}} to='/'>
                   <span style={{paddingRight: 4}} uk-icon="icon: home; ratio: 1"></span>
                   Home
-                </Link>
+                </a>
               </li>
               <li>
-                <Link className='uk-text-emphasis' style={{minHeight: 0}} to=''>
+                <a className='uk-text-emphasis' style={{minHeight: 0}} to=''>
                   <span style={{paddingRight: 4}} uk-icon="icon: calendar; ratio: 1"></span>
                   シフト表
-                </Link>
+                </a>
               </li>
               <li>
-                <Link className='uk-text-emphasis' style={{minHeight: 0}} to=''>
+                <a className='uk-text-emphasis' style={{minHeight: 0}} to=''>
                   <span style={{paddingRight: 4}} uk-icon="icon: file-edit; ratio: 1"></span>
                   シフト記入
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

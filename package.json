@@ -1,13 +1,13 @@
 {
   "name": "react_sample",
   "version": "1.0.0",
-  "homepage": "https://TakutoOooka.github.io/React-ShiftManagerSample",
+  "homepage": "https://takutooooka.github.io/react-shift-manager-sample/",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server --mode development --open",
     "build": "./node_modules/.bin/webpack",
-    "deploy": "gh-pages -d build"
+    "deploy": "yarn build && gh-pages -d dist"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
